@@ -1,116 +1,45 @@
-/* styles.css */
-
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    font-family: "Open Sans", sans-serif;
+
 }
 
-header {
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 35px;
+
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     align-items: center;
 }
 
 nav ul li {
-    margin-left: 2rem;
+    list-style: none;
+    margin-right: 50px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+nav a {
+    color: rgb(27, 27, 27);
 }
-
-nav ul li .btn {
-    background-color: #ff5722;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-.vertical-text {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-size: 2rem;
-    color: #ddd;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.intro {
-    max-width: 50%;
-}
-
-.intro h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
-
-.intro p {
-    font-size: 1rem;
-    color: #777;
-    margin: 1rem 0;
-}
-
-.buttons {
-    margin-top: 2rem;
-}
-
-.btn {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.btn-primary {
-    background-color: #ff5722;
-    color: #fff;
-    margin-right: 1rem;
-}
-
-.btn-outline {
-    background-color: #fff;
-    color: #ff5722;
-    border: 2px solid #ff5722;
-}
-
-.profile-pic {
-    max-width: 40%;
-}
-
-.profile-pic img {
-    width: 100%;
-    border-radius: 50%;
-}
-

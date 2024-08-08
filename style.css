@@ -28,6 +28,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
 }
 
 nav ul {
@@ -42,4 +44,16 @@ nav ul li {
 
 nav a {
     color: rgb(27, 27, 27);
+}
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width:600px;
 }
